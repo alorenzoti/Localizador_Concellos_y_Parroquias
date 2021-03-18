@@ -1,0 +1,23 @@
+<div>
+
+  <h3>Xunta: Buscador de parroquias</h3>
+  <label for="provincias"class="form-control">Provincia</label>
+  <select name="provincias" data-dojo-attach-event="onchange:cargaConcellos" data data-dojo-attach-point="selectProvincia" class="form-select form-select-lg mb-3">
+    <option value="-1">Seleccione provincia</option>
+    <option value="15">A coruña</option>
+    <option value="27">Lugo</option>
+    <option value="32">Ourense</option>
+    <option value="36">Pontevedra</option>
+  </select>
+
+  <label for="concellos"class="form-control">Concellos</label>
+  <select name="concellos" data-dojo-attach-point="selectConcellos"data-dojo-attach-event="onchange:cargaParroquias" class="form-select form-select-lg mb-3"></select>
+  <button data-dojo-attach-event="onclick:zoomConcello"class="btn btn-primary">👀</button>
+
+  <br>
+  <label for="parroquias"class="form-control">Parroquias</label>
+  <select name="parroquias" data-dojo-attach-point="selectParroquias" class="form-select form-select-lg mb-3"></select>
+  <button data-dojo-attach-event="onclick:zoomParroquia"class="btn btn-primary">👀 </button>
+
+  
+</div>

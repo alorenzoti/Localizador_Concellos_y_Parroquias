@@ -1,0 +1,14 @@
+.xunta h3 {
+  font-size: 1.2em;
+}
+.xunta h3, p {
+  margin-top: 0;
+}
+/* add additional custom styles */
+div{
+  background-image: url(../images/cruz.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center;
+  background-size: cover;
+}
